@@ -1,1 +1,1 @@
-app: bin/hubot -a campfire -n Android
+app: bin/hubot -a campfire -n Tsunku
