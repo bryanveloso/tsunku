@@ -1,1 +1,1 @@
-app: bin/hubot -a campfire -n Revbot
+app: bin/hubot -a campfire -n Android
