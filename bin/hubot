@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env coffee
 ##
 # hubot [options]
@@ -101,4 +102,12 @@ else
   robot.run()
 
 # vim:ft=coffee ts=2 sw=2 et :
+=======
+#!/bin/sh
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+
+exec node_modules/.bin/hubot "$@"
+>>>>>>> heroku/master
 

@@ -78,4 +78,3 @@ It's easy to test scripts locally with an interactive shell:
 ... and to run unit tests:
 
     % make test
-
