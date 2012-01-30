@@ -15,7 +15,7 @@ module.exports = (robot) ->
     msg.http("http://aidoru-bomb.herokuapp.com/bomb")
     # msg.http("http://pugme.herokuapp.com/bomb?count=" + count)
       .get() (err, res, body) ->
-        msg.send idol for idols in JSON.parse(body).idols
+        msg.send idol for idol in JSON.parse(body).idols
 
   robot.respond /how many idols are there/i, (msg) ->
     msg.http("http://aidoru-bomb.herokuapp.com/count")
