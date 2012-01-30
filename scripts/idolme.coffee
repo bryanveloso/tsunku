@@ -1,7 +1,7 @@
 # Idols are here to make you happy.
 #
 # idol me - Receive an idol
-# idol bomb N - get N idols (not yet though.)
+# idol bomb N - get N idols
 
 module.exports = (robot) ->
 
@@ -12,8 +12,7 @@ module.exports = (robot) ->
 
   robot.respond /idol bomb( (\d+))?/i, (msg) ->
     count = msg.match[2] || 5
-    msg.http("http://aidoru-bomb.herokuapp.com/bomb")
-    # msg.http("http://pugme.herokuapp.com/bomb?count=" + count)
+    msg.http("http://aidoru-bomb.herokuapp.com/bomb?count=" + count)
       .get() (err, res, body) ->
         msg.send idol for idol in JSON.parse(body).idols
 
