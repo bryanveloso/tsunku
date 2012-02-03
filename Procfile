@@ -1,1 +1,1 @@
-app: bin/hubot -a campfire -n Tsunku --alias '/'
+app: bin/hubot -a irc -n Tsunku --alias '/'
