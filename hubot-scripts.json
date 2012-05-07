@@ -1,5 +1,6 @@
 [
     "play.coffee",
+    "pypi.coffee",
     "redis-brain.coffee",
     "shipit.coffee",
     "tweet.coffee"
