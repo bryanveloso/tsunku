@@ -2,5 +2,5 @@
     "play.coffee",
     "redis-brain.coffee",
     "shipit.coffee",
-    "tweet.coffee",
+    "tweet.coffee"
 ]
