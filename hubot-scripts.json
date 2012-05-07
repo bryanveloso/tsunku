@@ -1,4 +1,5 @@
 [
+    "github-credentials.coffee",
     "play.coffee",
     "pypi.coffee",
     "redis-brain.coffee",
