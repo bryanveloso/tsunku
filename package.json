@@ -19,7 +19,6 @@
     "hubot": "2.5.0",
     "hubot-scripts": ">=2.0.8",
     "optparse": "1.0.3",
-    "pypi": "0.1.1"
   },
 
   "engines": {
